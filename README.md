@@ -1,6 +1,10 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+1) Clone repository.
 
-for self-checking their submission.
+2) open index.html in your browser.
+
+3) use arrow keys to move your player.
+
+4) avoid bugs and make it to the water to win.  

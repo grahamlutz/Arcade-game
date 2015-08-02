@@ -38,7 +38,8 @@ var Player = function(x,y) {
     this.x = x;
     this.y = y;
 
-    this.sprite = "images/char-boy.png", 'images/char-cat-girl.png';
+    this.sprite = "images/char-boy.png";
+    //TODO: ask player if girl or boy and display proper sprite
 };
 
 Player.prototype.render = function() {
@@ -46,6 +47,7 @@ Player.prototype.render = function() {
 };
 
 Player.prototype.update = function() {
+    //rest player position if player enters water
     if(this.y < 40){
         this.y = 400;
     };
